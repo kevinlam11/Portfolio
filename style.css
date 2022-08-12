@@ -38,6 +38,17 @@ h1 {
     background-position: 0% 85%;
   }
 }
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 100px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
 
 #wireframe {
   width: 100%;
@@ -66,6 +77,10 @@ h1 {
     inset -20px 0 300px #f9d423, 0 0 50px #fff, -10px 0 80px #f83600,
     10px 0 80px #f9d423;
   opacity: 60%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 #bubble2 {
   width: 100px;
@@ -79,6 +94,10 @@ h1 {
     inset -20px 0 300px #0ff, 0 0 50px #fff, -10px 0 80px #fee140,
     10px 0 80px #fa709a;
   opacity: 60%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 #bubble3 {
   width: 100px;
@@ -92,6 +111,10 @@ h1 {
     inset -20px 0 300px #f9f047, 0 0 50px #fff, -10px 0 80px #0fd850,
     10px 0 80px #f9f047;
   opacity: 60%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 #bubble4 {
   width: 100px;
@@ -105,6 +128,10 @@ h1 {
     inset -20px 0 300px #fc00ff, 0 0 50px #fff, -10px 0 80px #00dbde,
     10px 0 80px #fc00ff;
   opacity: 60%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
 }
 
 h3 {
@@ -131,6 +158,7 @@ a {
   letter-spacing: 3px;
   text-align: center;
   margin-top: 80%;
+  opacity: 30%;
 }
 
 #project-container {
@@ -167,7 +195,12 @@ img {
   header {
     font-size: 30px;
   }
-  ul {
+  div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  a {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
