@@ -1,8 +1,6 @@
-# Portfolio
+# Welcome to my Portfolio!
 
-## Welcome to my portfolio!
-
-[Kevins Portfolio Link](https://kevinlam11.github.io/SEO-Assignment-1/)
+[Kevins Portfolio Link](https://kevinlam11.github.io/Portfolio/)
 
 ## Visuals
 
